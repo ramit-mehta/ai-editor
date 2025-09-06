@@ -3,7 +3,7 @@ import { useEditor } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
 import EditorView from "./components/Editor";
 import FloatingToolbar from "./components/FloatingToolbar";
-import ChatSideBar from "./components/ChatSideBar";
+import ChatSidebar from "./components/ChatSideBar";
 
 export default function App() {
   const [content, setContent] = useState("");
@@ -63,7 +63,7 @@ export default function App() {
       </div>
 
       {/* Sidebar */}
-      <ChatSideBar editor={editor} onApplyEdit={applyEdit} />
+      <ChatSidebar editor={editor} onApplyEdit={applyEdit} />
     </div>
   );
 }
