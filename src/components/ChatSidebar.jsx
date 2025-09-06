@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { webSearchAndSummarize } from "./Agent";
 
-export default function ChatSidebar({ editor }) {
+export default function ChatSideBar({ editor }) {
   const [messages, setMessages] = useState([
     {
       role: "assistant",
